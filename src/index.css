@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html,
+body {
+	height: 100%;
+}
+
+svg {
+	font-family: "Dungeon";
+}
+
+@font-face {
+	font-family: "Dungeon";
+	src: local("Dungeon"), url(./assets/DUNGRG.TTF) format("truetype");
+}
